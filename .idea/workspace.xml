@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec9d46d4-6ea3-4631-874b-b769d26a3d54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Graficacion.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graficacion1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graficacion2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graficacion3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graficacion4.py" afterDir="false" />
+    <list default="true" id="ec9d46d4-6ea3-4631-874b-b769d26a3d54" name="Changes" comment="Se han guardado los códigos de las primeras clases de Graficación.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graficacion4.py" beforeDir="false" afterPath="$PROJECT_DIR$/graficacion4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,15 +70,32 @@
       <workItem from="1725950466755" duration="663000" />
       <workItem from="1726102735103" duration="140000" />
       <workItem from="1726103671265" duration="2281000" />
-      <workItem from="1726124122125" duration="4806000" />
+      <workItem from="1726124122125" duration="5023000" />
+      <workItem from="1726189992716" duration="3206000" />
+      <workItem from="1726256114126" duration="1224000" />
+      <workItem from="1726346184088" duration="1949000" />
+      <workItem from="1726621844885" duration="397000" />
     </task>
+    <task id="LOCAL-00001" summary="Se han guardado los códigos de las primeras clases de Graficación.">
+      <option name="closed" value="true" />
+      <created>1726129132249</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726129132249</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Se han guardado los códigos de las primeras clases de Graficación." />
+    <option name="LAST_COMMIT_MESSAGE" value="Se han guardado los códigos de las primeras clases de Graficación." />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Graficacion$graficacion4.coverage" NAME="graficacion4 Coverage Results" MODIFIED="1726128930348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Graficacion$graficacion4.coverage" NAME="graficacion4 Coverage Results" MODIFIED="1726192931616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Graficacion$Graficacion1.coverage" NAME="Graficacion1 Coverage Results" MODIFIED="1725587691421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Graficacion$Graficacion3.coverage" NAME="Graficacion3 Coverage Results" MODIFIED="1726104561150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Graficacion$Graficacion2.coverage" NAME="Graficacion2 Coverage Results" MODIFIED="1725933426046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
