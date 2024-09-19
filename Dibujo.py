@@ -4,7 +4,7 @@ import numpy as np
 class Dibujo:
     window = "Mi Ventana"
     def __init__(self, ancho=640, alto=480):
-        self.frame = np.full((ancho, alto, 3), (255, 255, 255), dtype=np.uint8)
+        self.frame = np.full((alto, ancho, 3), (255, 255, 255), dtype=np.uint8)
 
     def punto(self, x, y, color=(0, 0, 0)):
         self.frame[y, x] = color
@@ -45,4 +45,23 @@ class Dibujo:
 
     def mostrar(self):
         cv2.imshow(self.window, self.frame)
-        cv2.destroyAllWindows()
+        cv2.waitKey(0)
+
+'''
+a = Dibujo()
+a.linea(100, 100, 200, 200)
+a.caja(200, 200, 100, 100)
+a.mostrar()
+cv2.destroyAllWindows()
+'''
+
+casa = Dibujo()
+casa.caja(200, 200, 300, 100)
+casa.linea(200, 200, 100, 200)
+casa.linea(500, 200, 600, 200)
+casa.linea(100, 200, 350, 100)
+casa.linea(600, 200, 350, 100)
+casa.caja(330, 220, 50, 80)
+casa.caja(250, 220, 50, 50)
+casa.caja(410, 220, 50, 50)
+casa.mostrar()
