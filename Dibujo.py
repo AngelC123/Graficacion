@@ -39,8 +39,8 @@ class Dibujo:
 
     def circunferencia(self, x, y, r, color=(0, 0, 0)):
         for i in range(0, 361):
-            x2 = int(y + r * np.cos(i))
-            y2 = int(x + r * np.sin(i))
+            x2 = int(x + r * np.cos(i))
+            y2 = int(y + r * np.sin(i))
             self.punto(x2, y2, color)
 
     def mostrar(self):
@@ -64,4 +64,5 @@ casa.linea(600, 200, 350, 100)
 casa.caja(330, 220, 50, 80)
 casa.caja(250, 220, 50, 50)
 casa.caja(410, 220, 50, 50)
+casa.circunferencia(365, 260, 5)
 casa.mostrar()

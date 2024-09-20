@@ -14,8 +14,8 @@ def lineaAbajo(f, x, y, distancia, color = (0, 0, 0)):
 
 def circunferencia(f, x, y, r, color = (0, 0, 0)):
     for i in range(0, 361):
-        x2 = int(y + r * np.cos(i))
-        y2 = int(x + r * np.sin(i))
+        x2 = int(x + r * np.cos(i))
+        y2 = int(y + r * np.sin(i))
         punto(f, x2, y2, color)
 
 def caja(f, x, y, alto, ancho, color = (0, 0, 0)):
