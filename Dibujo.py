@@ -56,13 +56,19 @@ cv2.destroyAllWindows()
 '''
 
 casa = Dibujo()
-casa.caja(200, 200, 300, 100)
-casa.linea(200, 200, 100, 200)
-casa.linea(500, 200, 600, 200)
-casa.linea(100, 200, 350, 100)
-casa.linea(600, 200, 350, 100)
-casa.caja(330, 220, 50, 80)
-casa.caja(250, 220, 50, 50)
-casa.caja(410, 220, 50, 50)
+casa.caja(200, 200, 300, 100) # Fachada
+casa.linea(200, 200, 100, 200) # Tejado 1
+casa.linea(500, 200, 600, 200) # Tejado 2
+casa.linea(100, 200, 350, 100) # Tejado 3
+casa.linea(600, 200, 350, 100) # Tejado 4
+casa.caja(330, 220, 50, 80) # Puerta
+casa.caja(250, 220, 50, 50) # Ventana izquierda
+casa.caja(410, 220, 50, 50) # Ventana derecha
 casa.circunferencia(365, 260, 5)
+casa.circunferencia(425, 100, 15)
+casa.cajaRellena(425, 100-15, 30, 30, (255, 255, 255))
+casa.circunferencia(425, 100-30, 15)
+casa.cajaRellena(395, 70-15, 30, 30, (255, 255, 255))
+casa.circunferencia(425, 100-60, 15)
+casa.cajaRellena(425, 25, 30, 30, (255, 255, 255))
 casa.mostrar()

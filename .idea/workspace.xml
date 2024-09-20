@@ -7,7 +7,6 @@
     <list default="true" id="ec9d46d4-6ea3-4631-874b-b769d26a3d54" name="Changes" comment="Se han guardado los códigos de las primeras clases de Graficación.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dibujo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dibujo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graficacion4.py" beforeDir="false" afterPath="$PROJECT_DIR$/graficacion4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +91,7 @@
       <workItem from="1726640655280" duration="1632000" />
       <workItem from="1726702120816" duration="408000" />
       <workItem from="1726708938167" duration="1561000" />
+      <workItem from="1726794950704" duration="1258000" />
     </task>
     <task id="LOCAL-00001" summary="Se han guardado los códigos de las primeras clases de Graficación.">
       <option name="closed" value="true" />
@@ -125,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726709108263</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Se han guardado los códigos de las primeras clases de Graficación.">
+      <option name="closed" value="true" />
+      <created>1726795254505</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726795254505</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +148,6 @@
     <SUITE FILE_PATH="coverage/Graficacion$Graficacion1.coverage" NAME="Graficacion1 Coverage Results" MODIFIED="1725587691421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Graficacion$Graficacion3.coverage" NAME="Graficacion3 Coverage Results" MODIFIED="1726104561150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Graficacion$Graficacion2.coverage" NAME="Graficacion2 Coverage Results" MODIFIED="1725933426046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Graficacion$Dibujo.coverage" NAME="Dibujo Coverage Results" MODIFIED="1726710388346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Graficacion$Dibujo.coverage" NAME="Dibujo Coverage Results" MODIFIED="1726796209764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
