@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec9d46d4-6ea3-4631-874b-b769d26a3d54" name="Changes" comment="Se han guardado los códigos de las primeras clases de Graficación.">
+      <change afterPath="$PROJECT_DIR$/casa.bmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dibujo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dibujo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/casa.py" beforeDir="false" afterPath="$PROJECT_DIR$/casa.py" afterDir="false" />
@@ -106,7 +107,7 @@
       <workItem from="1727341455958" duration="378000" />
       <workItem from="1727399769903" duration="2114000" />
       <workItem from="1727491335688" duration="3625000" />
-      <workItem from="1727858232809" duration="2119000" />
+      <workItem from="1727858232809" duration="2506000" />
     </task>
     <task id="LOCAL-00001" summary="Se han guardado los códigos de las primeras clases de Graficación.">
       <option name="closed" value="true" />
@@ -180,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727249208957</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Se han guardado los códigos de las primeras clases de Graficación.">
+      <option name="closed" value="true" />
+      <created>1727860555023</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727860555023</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
