@@ -48,3 +48,4 @@ casa.cajaRellena(425, 25, 30, 30, (255, 255, 255))
 '''
 
 casa.mostrar()
+casa.guarda("casa.bmp")

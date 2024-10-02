@@ -1,5 +1,7 @@
 import cv2
 import numpy as np
+import struct
+import os
 
 class Dibujo:
     window = "Mi Ventana"
@@ -79,3 +81,38 @@ class Dibujo:
     def mostrar(self):
         cv2.imshow(self.window, self.frame)
         cv2.waitKey(0)
+
+    def guarda(self, archivo):
+        if os.path.exists(archivo):
+            print("El Archivo ya existe")
+        else:
+            height, width, _ = self.frame.shape
+            row_size = width * 3
+            row_size = (row_size + 3) & ~3
+            padding = row_size - (width * 3)
+            file_size = row_size * height
+            with open(archivo, "wb") as f:
+                f.write(b'BM')
+                f.write(struct.pack('<I', file_size + 54))
+                f.write(b'\x00\x00\x00\x00')
+                f.write(struct.pack('<I', 54))
+                f.write(struct.pack('<I', 40))
+                f.write(struct.pack('<I', width))
+                f.write(struct.pack('<I', height))
+                f.write(struct.pack('<H', 1))
+                f.write(struct.pack('<H', 24))
+                f.write(struct.pack('<I', 0))
+                f.write(struct.pack('<I', 0))
+                f.write(struct.pack('<I', file_size))
+                f.write(struct.pack('<I', 2835))
+                f.write(struct.pack('<I', 2835))
+                f.write(struct.pack('<I', 0))
+                f.write(struct.pack('<I', 0))
+                for y in range (height - 1, -1, -1):
+                    for x in range (width):
+                        b, g, r = self.frame[y, x]
+                        f.write(struct.pack('<B', b))
+                        f.write(struct.pack('<B', g))
+                        f.write(struct.pack('<B', r))
+                    for z in range (padding):
+                        f.write(b'\x00')
