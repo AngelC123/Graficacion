@@ -102,7 +102,6 @@ class Dibujo:
                 f.write(struct.pack('<H', 1))
                 f.write(struct.pack('<H', 24))
                 f.write(struct.pack('<I', 0))
-                f.write(struct.pack('<I', 0))
                 f.write(struct.pack('<I', file_size))
                 f.write(struct.pack('<I', 2835))
                 f.write(struct.pack('<I', 2835))
@@ -111,8 +110,8 @@ class Dibujo:
                 for y in range (height - 1, -1, -1):
                     for x in range (width):
                         b, g, r = self.frame[y, x]
-                        f.write(struct.pack('<B', b))
-                        f.write(struct.pack('<B', g))
-                        f.write(struct.pack('<B', r))
+                        f.write(struct.pack('B', b))
+                        f.write(struct.pack('B', g))
+                        f.write(struct.pack('B', r))
                     for z in range (padding):
                         f.write(b'\x00')
