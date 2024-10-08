@@ -115,3 +115,18 @@ class Dibujo:
                         f.write(struct.pack('B', r))
                     for z in range (padding):
                         f.write(b'\x00')
+
+    def cargar(self, archivo):
+        if not os.path.exists(archivo):
+            print("Archivo no encontrado")
+        with open(archivo, 'rb') as f:
+            if f.read(2) != b'BM':
+                print("Solo soporta BMP")
+                return
+            f.seek(54)
+            height = 480
+            width = 640
+            for y in range(height -1, -1, -1):
+                for x in range(width):
+                    pixel = f.read(3)
+                    self.punto(x, y, (pixel[0], pixel[1], pixel[2]))
