@@ -9,7 +9,7 @@ alto_original, ancho_original = imagen.shape[:2]
 
 # Definir el tamaño de la ventana
 alto_ventana = 600
-ancho_ventana = 800
+ancho_ventana = 600
 
 # Crear una ventana para mostrar la animación
 cv2.namedWindow('Animacion Escalamiento', cv2.WINDOW_NORMAL)
@@ -41,8 +41,8 @@ for i in range(pasos):
     nuevo_ancho = min(nuevo_ancho, ancho_ventana)
     nuevo_alto = min(nuevo_alto, alto_ventana)
 
-    # Crear un fondo blanco
-    fondo = np.ones((alto_ventana, ancho_ventana, 3), dtype=np.uint8) * 255  # Fondo blanco
+    # Crear un fondo
+    fondo = np.ones((alto_ventana, ancho_ventana, 3), dtype=np.uint8) * 255
 
     # Calcular la posición para centrar la imagen escalada en el fondo
     centro_x = (fondo.shape[1] - nuevo_ancho) // 2

@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec9d46d4-6ea3-4631-874b-b769d26a3d54" name="Changes" comment="Se han guardado los códigos de las primeras clases de Graficación.">
-      <change afterPath="$PROJECT_DIR$/Escalamiento.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Escalamiento.py" beforeDir="false" afterPath="$PROJECT_DIR$/Escalamiento.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,25 +44,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Dibujo.executor": "Run",
-    "Python.Escalamiento.executor": "Run",
-    "Python.Graficacion1.executor": "Run",
-    "Python.Graficacion2.executor": "Run",
-    "Python.Graficacion3.executor": "Run",
-    "Python.casa.executor": "Run",
-    "Python.graficacion4.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Dibujo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Escalamiento.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Graficacion1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Graficacion2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Graficacion3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.casa.executor&quot;: &quot;Run&quot;,
+    &quot;Python.graficacion4.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -112,7 +112,8 @@
       <workItem from="1728436789827" duration="1778000" />
       <workItem from="1728462364497" duration="2681000" />
       <workItem from="1728609604239" duration="1793000" />
-      <workItem from="1729389618802" duration="2339000" />
+      <workItem from="1729389618802" duration="3111000" />
+      <workItem from="1729667398534" duration="476000" />
     </task>
     <task id="LOCAL-00001" summary="Se han guardado los códigos de las primeras clases de Graficación.">
       <option name="closed" value="true" />
@@ -226,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729389649612</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Se han guardado los códigos de las primeras clases de Graficación.">
+      <option name="closed" value="true" />
+      <created>1729392107467</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1729392107467</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +263,6 @@
     <SUITE FILE_PATH="coverage/Graficacion$Graficacion3.coverage" NAME="Graficacion3 Coverage Results" MODIFIED="1726104561150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Graficacion$Graficacion2.coverage" NAME="Graficacion2 Coverage Results" MODIFIED="1725933426046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Graficacion$Dibujo.coverage" NAME="Dibujo Coverage Results" MODIFIED="1727860276480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Graficacion$Escalamiento.coverage" NAME="Escalamiento Coverage Results" MODIFIED="1729391956768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Graficacion$Escalamiento.coverage" NAME="Escalamiento Coverage Results" MODIFIED="1729667873412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
