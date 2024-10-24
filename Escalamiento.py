@@ -8,8 +8,8 @@ imagen = cv2.imread('link.jpg')
 alto_original, ancho_original = imagen.shape[:2]
 
 # Definir el tamaño de la ventana
-alto_ventana = 600
-ancho_ventana = 600
+alto_ventana = 700
+ancho_ventana = 700
 
 # Crear una ventana para mostrar la animación
 cv2.namedWindow('Animacion Escalamiento', cv2.WINDOW_NORMAL)
@@ -17,11 +17,23 @@ cv2.resizeWindow('Animacion Escalamiento', ancho_ventana, alto_ventana)  # Tama�
 
 # Definir el número de pasos de la animación
 pasos = 100
-escalado_maximo = max(ancho_ventana / ancho_original, alto_ventana / alto_original)  # Factor de escala máximo
+escalado_maximo = max(ancho_ventana / ancho_original, alto_ventana / alto_original)  # Factor de escala máximo uniforme
+
+# Definir la matriz de escalado 2D
+def aplicar_escalamiento(x, y, factor):
+    # Matriz de escalado uniforme (mismo factor para x y y)
+    matriz_escalado = np.array([[factor, 0],
+                                [0, factor]])
+    # Vector con las coordenadas actuales
+    coordenadas = np.array([x,
+                            y])
+    # Aplicar la transformación
+    x_escalado, y_escalado = np.dot(matriz_escalado, coordenadas)
+    return int(x_escalado), int(y_escalado)
 
 # Animación de escalamiento
 for i in range(pasos):
-    # Calcular el factor de escala en función de los pasos
+    # Calcular el factor de escala en función de los pasos (uniforme)
     if i < pasos // 2:
         # Escalar hacia arriba hasta el límite de la ventana
         factor = 1 + (escalado_maximo - 1) * (i / (pasos // 2))
@@ -33,7 +45,7 @@ for i in range(pasos):
             # Regresar al tamaño original
             factor = 0.5 + (1 - 0.5) * ((i - (3 * pasos // 4)) / (pasos // 4))
 
-    # Calcular el nuevo tamaño de la imagen escalada
+    # Calcular el nuevo tamaño de la imagen escalada (uniforme en ambos ejes)
     nuevo_ancho = int(ancho_original * factor)
     nuevo_alto = int(alto_original * factor)
 
@@ -48,12 +60,11 @@ for i in range(pasos):
     centro_x = (fondo.shape[1] - nuevo_ancho) // 2
     centro_y = (fondo.shape[0] - nuevo_alto) // 2
 
-    # Usar la matriz de transformación para dibujar la imagen escalada
+    # Usar la matriz de transformación para escalar manualmente
     for y in range(nuevo_alto):
         for x in range(nuevo_ancho):
-            # Calcular las coordenadas de la imagen original
-            original_x = int(x / factor)
-            original_y = int(y / factor)
+            # Calcular las coordenadas de la imagen escalada usando la matriz de escalado (uniforme)
+            original_x, original_y = aplicar_escalamiento(x, y, 1 / factor)
 
             # Asegurarse de que las coordenadas originales están dentro de los límites de la imagen
             if original_x < ancho_original and original_y < alto_original:
@@ -64,7 +75,7 @@ for i in range(pasos):
     cv2.imshow('Animacion Escalamiento', fondo)
 
     # Esperar 30 ms entre cada cuadro para hacer visible la animación
-    cv2.waitKey(5)
+    cv2.waitKey(1)
 
 # Terminar la animación
 cv2.destroyAllWindows()
