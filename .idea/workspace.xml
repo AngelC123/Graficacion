@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec9d46d4-6ea3-4631-874b-b769d26a3d54" name="Changes" comment="Se han guardado los códigos de las primeras clases de Graficación.">
-      <change afterPath="$PROJECT_DIR$/cubo_animado.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cubo_mouse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opengl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cubo_texturizado.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +54,7 @@
     &quot;Python.casa.executor&quot;: &quot;Run&quot;,
     &quot;Python.cubo_animado.executor&quot;: &quot;Run&quot;,
     &quot;Python.cubo_mouse.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cubo_texturizado.executor&quot;: &quot;Run&quot;,
     &quot;Python.graficacion4.executor&quot;: &quot;Run&quot;,
     &quot;Python.opengl.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -126,7 +125,7 @@
       <workItem from="1730874103766" duration="4064000" />
       <workItem from="1730879979410" duration="2734000" />
       <workItem from="1730879973125" duration="2097000" />
-      <workItem from="1731277071769" duration="1490000" />
+      <workItem from="1731277071769" duration="6020000" />
     </task>
     <task id="LOCAL-00001" summary="Se han guardado los códigos de las primeras clases de Graficación.">
       <option name="closed" value="true" />
@@ -264,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729751355991</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Se han guardado los códigos de las primeras clases de Graficación.">
+      <option name="closed" value="true" />
+      <created>1731280800566</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1731280800567</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,11 +294,12 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Graficacion$graficacion4.coverage" NAME="graficacion4 Coverage Results" MODIFIED="1726622034112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Graficacion$cubo_texturizado.coverage" NAME="cubo_texturizado Coverage Results" MODIFIED="1731298506089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Graficacion$Graficacion1.coverage" NAME="Graficacion1 Coverage Results" MODIFIED="1725587691421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Graficacion$opengl.coverage" NAME="opengl Coverage Results" MODIFIED="1730880740936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Graficacion$cubo_animado.coverage" NAME="cubo_animado Coverage Results" MODIFIED="1730881620035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Graficacion$cubo_animado.coverage" NAME="cubo_animado Coverage Results" MODIFIED="1731297134545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Graficacion$casa.coverage" NAME="casa Coverage Results" MODIFIED="1728463201682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Graficacion$cubo_mouse.coverage" NAME="cubo_mouse Coverage Results" MODIFIED="1730881808658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Graficacion$cubo_mouse.coverage" NAME="cubo_mouse Coverage Results" MODIFIED="1731297181617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Graficacion$Graficacion3.coverage" NAME="Graficacion3 Coverage Results" MODIFIED="1726104561150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Graficacion$Graficacion2.coverage" NAME="Graficacion2 Coverage Results" MODIFIED="1725933426046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Graficacion$Dibujo.coverage" NAME="Dibujo Coverage Results" MODIFIED="1727860276480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
